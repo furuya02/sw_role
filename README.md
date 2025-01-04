@@ -55,7 +55,7 @@ case $target in
 ## Use
 
 ```
-% source sw_role {MFT_CODE}
+% source sw_role {MFA_CODE}
 ```
 
 * 環境「dev」を選択した例
