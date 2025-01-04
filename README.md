@@ -26,7 +26,7 @@ org_account=567856785678
 org_name=my-role
 
 # スイッチ先の選択
-target=$(gum choose "dev" "stg" "prod" "test")
+target=$(gum choose "test" "dev")
 case $target in
     "test")
         target_account=123412341234
